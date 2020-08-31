@@ -12,26 +12,49 @@
     grid-template-columns: repeat(4, auto);
     align-items: center;
     justify-items: center;
+    background: rgba(245, 245, 245, 0.8);
+    backdrop-filter: blur(4px);
+    padding: 5px 10px;
+    border-radius: 30px;
 }
 
+
+
 .Header a {
-    color: white;
+    color: black;
     font-weight: 700;
-    padding: 5px 10px;
+    padding: 3px 8px;
     border-radius: 10px;
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1)
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Header a:hover {
-    color: black;
+    color: #5344AF;
     background: white;
-    transform: translateY(-2px);
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
 }
 
 
 @media (max-width: 640px) {
     .Header {
-        padding: 15px 0;
+        padding: 8px 0;
+        background: rgba(245, 245, 245, 0.8);
+        backdrop-filter: blur(4px);
+    }
+
+    .HeaderGroup {
+        background: transparent;
+        border-radius: none;
+        backdrop-filter: none;
+    }
+
+
+
+    .Header a:hover {
+        transform: none;
+        box-shadow: none;
+        background: none;
     }
 
 }

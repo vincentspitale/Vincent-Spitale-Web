@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #6127DC;
+  color: #5344AF;
   text-decoration: none;
   font-weight: 600;
 }
@@ -22,10 +22,13 @@ a {
 
 .HeroGroup {
   margin: 0 auto;
-  max-width: 500px;
-  padding: 150px 50px;
-  text-align: center;
+  max-width: 1000px;
+  padding: 200px 50px;
+  text-align: start;
+  align-self: center;
 }
+
+
 
 .Hero h1 {
   margin: 0;
@@ -40,7 +43,7 @@ a {
   color: rgba(255,255,255,0.8);
   font-size: 30px;
   line-height: 1.5;
-  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: HeroAnimation 3s 0.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 }
 
@@ -62,6 +65,7 @@ a {
 }
 
 @media (max-width: 640px) {
+
   .HeroGroup {
     padding: 100px 20px;
   }

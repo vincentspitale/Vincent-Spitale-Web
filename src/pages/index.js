@@ -9,6 +9,7 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Hi, I'm Vincent.</h1>
+        <p>I study computer science at Northeastern University.</p>
       </div>
     
     </div>
