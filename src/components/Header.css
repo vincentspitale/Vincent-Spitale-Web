@@ -6,10 +6,10 @@
 }
 
 .HeaderGroup {
-    max-Width: 800px;
+    max-Width: 400px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
     align-items: center;
     justify-items: center;
 }
