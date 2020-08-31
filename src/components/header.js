@@ -9,7 +9,6 @@ const Header = ({ siteTitle }) => (
       <Link to="/about/">About</Link>
       <Link to="/blog/">Blog</Link>
       <Link to="/projects/">Projects</Link>
-      <a href="" download="Vincent-Spitale-Resume.pdf">Resumé</a>
       </div>
   </div>
 )
