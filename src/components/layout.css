@@ -23,16 +23,15 @@ body {
 }
 
 body.dark {
-  --bg: #151515;
+  --bg: black;
   --textNormal: white;
   --textLink: #C5B7FF;
   --textHover: white;
   --contrastMaterial: black;
-  --transparentMaterial: rgba(11, 11, 11, 0.8);
-  --heroBackground: linear-gradient(180deg, #100B29 0%, #313A58 100%);
+  --transparentMaterial: rgba(32, 32, 32, 0.8);
+  --heroBackground: linear-gradient(180deg, #4E4775 0%, #192036 100%);
   --textGradient: linear-gradient(180deg, #C9C8FF 0%, #B3DAFF 100%);
   --textTransparent: rgba(255,255,255,0.8);
-  --shadow: rgba(255,255,255,0.2);
 
   
 }
