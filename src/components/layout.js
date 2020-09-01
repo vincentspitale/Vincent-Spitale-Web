@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Helmet from 'react-helmet'
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({children}) => {
@@ -23,12 +24,12 @@ const Layout = ({children}) => {
     }
   `)
 
-      return (<div>
+      return (<div className="container">
+        <div className="content">
         <Header />
         <main>{children}</main>
-        <footer>
-          Vincent Spitale © {new Date().getFullYear()}
-        </footer>
+        </div>
+        <Footer />
       </div>
   )
 }
