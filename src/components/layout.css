@@ -29,7 +29,7 @@ body.dark {
   --contrastMaterial: black;
   --transparentMaterial: rgba(11, 11, 11, 0.8);
   --heroBackground: linear-gradient(180deg, #282346 0%, #495580 100%);
-  --textGradient: linear-gradient(180deg, #C9C8FF 0%, #85C4FF 100%);
+  --textGradient: linear-gradient(180deg, #C9C8FF 0%, #B3DAFF 100%);
   --textTransparent: rgba(255,255,255,0.8);
 
   
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .Hero .Socials {
-  margin: 50px 0;
+  margin: 100px auto;
   max-width: 300px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
