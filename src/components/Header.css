@@ -21,7 +21,6 @@
 
 
 .Header a {
-    color: var(--textNormal);
     font-weight: 700;
     padding: 3px 8px;
     border-radius: 10px;
@@ -29,7 +28,6 @@
 }
 
 .Header a:hover {
-    color: var(--textLink);
     background: var(--contrastMaterial);
     transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(0,0,0,0.25);
@@ -39,15 +37,18 @@
 @media (max-width: 640px) {
     .Header {
         position: relative;
-        padding: 8px 0;
+        padding: 10px 0;
         background: var(--bg);
         backdrop-filter: blur(4px);
+        
     }
 
     .HeaderGroup {
         background: transparent;
         border-radius: none;
         backdrop-filter: none;
+        margin-left: auto;
+        margin-right: 0;
     }
 
 

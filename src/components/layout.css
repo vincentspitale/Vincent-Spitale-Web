@@ -6,6 +6,11 @@ body {
   --textHover: black;
   --contrastMaterial: white;
   --transparentMaterial: rgba(245, 245, 245, 0.8);
+  --heroBackground: linear-gradient(180deg, #D5D0F1 0%, #CDD6F5 100%);
+  --textGradient: linear-gradient(180deg, #141259 0%, #1E5384 100%);
+  --textTransparent: rgba(0,0,0,0.8);
+
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   font-size: 20px;
@@ -23,6 +28,10 @@ body.dark {
   --textHover: white;
   --contrastMaterial: black;
   --transparentMaterial: rgba(11, 11, 11, 0.8);
+  --heroBackground: linear-gradient(180deg, #282346 0%, #495580 100%);
+  --textGradient: linear-gradient(180deg, #C9C8FF 0%, #85C4FF 100%);
+  --textTransparent: rgba(255,255,255,0.8);
+
   
 }
 
@@ -49,7 +58,7 @@ a:hover {
 }
 
 .Hero {
-  background: linear-gradient(180deg, #3D3763 0%, #8D96B5 100%);
+  background: var(--heroBackground);
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -66,8 +75,10 @@ a:hover {
 
 
 .Hero h1 {
+  background: var(--textGradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 0;
-  color: white;
   font-size: 60px;
   line-height: 1.2;
   opacity: 0;
@@ -75,7 +86,7 @@ a:hover {
 }
 
 .Hero p {
-  color: rgba(255,255,255,0.8);
+  color: var(--textTransparent);
   font-size: 30px;
   line-height: 1.5;
   animation: HeroAnimation 3s 0.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -86,7 +97,7 @@ a:hover {
 @media (max-width: 640px) {
 
   .HeroGroup {
-    padding: 100px 20px;
+    padding: 50px 20px;
   }
 
   .Hero h1 {
