@@ -190,7 +190,13 @@ a:hover {
     margin: 80px auto;
   }
 
+  .HeroGroup img {
+    max-width: 150px;
+  }
 
+  .Hero {
+    height: 600px;
+  }
 
 }
 
