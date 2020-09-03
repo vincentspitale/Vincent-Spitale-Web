@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Vincent Spitale`,
-    description: `My personal site.`,
+    description: `student, programmer, diversity advocate`,
+    keywords: 'Vincent Spitale, augmented reality, AR, inventory, multi, northeastern, visual positioning system, vps, swiftui, point cloud, ply',
     author: `Vincent Spitale`,
+    lang: 'en',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +26,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        //icon: `src/images/VS.png`,  This path is relative to the root of the site.
+        icon: `src/images/VS.svg`,  //This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
