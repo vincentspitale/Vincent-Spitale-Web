@@ -73,7 +73,7 @@ a:hover {
   padding-bottom: 50px;
   display: grid;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
   grid-template-columns: repeat(2,auto);
 }
 
