@@ -121,25 +121,27 @@ a:hover {
   font-size: 60px;
   line-height: 1.2;
   opacity: 0;
-  animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: HeroAnimation 2s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .HeroTextGroup p {
   font-size: 22px;
   color: var(--textTransparent);
   line-height: 1.5;
-  animation: HeroAnimation 3s 0.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: HeroAnimation 2s 0.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 }
 
 .Hero .Socials {
+  opacity: 0;
   padding-top: 30px;
   max-width: 300px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 40px;
   justify-items: center;
-  align-items: center;
+  align-items: center; 
+  animation: HeroAnimation 1s 1.0s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 
@@ -182,10 +184,6 @@ a:hover {
   .Hero .Socials {
     margin: auto;
     grid-gap: 20px;
-  }
-
-  .HeroGroup img {
-    max-width: 150px;
   }
 
 
