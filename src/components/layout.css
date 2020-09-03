@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
   --bg: white;
   --textNormal: black;
@@ -12,9 +14,9 @@ body {
   --shadow: rgba(0,0,0,0.25);
 
 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Inter';
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   line-height: 1.3;
 
@@ -30,7 +32,7 @@ body.dark {
   --contrastMaterial: black;
   --transparentMaterial: rgba(32, 32, 32, 0.8);
   --heroBackground: linear-gradient(180deg, #4E4775 0%, #192036 100%);
-  --textGradient: linear-gradient(180deg, #C9C8FF 0%, #B3DAFF 100%);
+  --textGradient: linear-gradient(180deg, #DAD0FF 0%, #D5EAFF 100%);
   --textTransparent: rgba(255,255,255,0.8);
 
   
@@ -58,6 +60,7 @@ a:hover {
   color: var(--textHover);
 }
 
+
 .Hero {
   background: var(--heroBackground);
   height: 600px;
@@ -66,16 +69,59 @@ a:hover {
 }
 
 .HeroGroup {
+  padding: 200px 0;
+  display: grid;
   margin: 0 auto;
-  max-width: 1000px;
-  padding: 200px 50px;
-  text-align: start;
-  align-self: center;
+  max-width: 1200px;
+  grid-template-columns: repeat(2,auto);
+}
+
+@media (max-width: 1200px) {
+  .Hero {
+    height: 700px;
+  }
+
+  .HeroGroup {
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, auto);
+    padding: 100px 0;
+  }
+
+  .HeroGroup img {
+    max-width: 200px;
+    padding: 50px 0px;
+  }
+
+  .HeroTextGroup {
+    padding: 50px 20px;
+  }
+
+ 
+}
+
+.HeroGroup img {
+  margin: 0 auto;
+  max-width: 250px;
+  border-radius: 50%;
+  padding: 0 0px;
 }
 
 
 
-.Hero h1 {
+
+.HeroTextGroup {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: start;
+  align-self: center;
+}
+
+.general {
+  padding: 100px;
+}
+
+
+.HeroTextGroup h1 {
   background: var(--textGradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -86,22 +132,23 @@ a:hover {
   animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.Hero p {
+.HeroTextGroup p {
+  font-size: 22px;
   color: var(--textTransparent);
-  font-size: 30px;
   line-height: 1.5;
   animation: HeroAnimation 3s 0.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 }
 
 .Hero .Socials {
-  margin: 100px auto;
+  margin: 50px 0;
   max-width: 300px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   justify-items: center;
 }
+
 
 .Socials svg {
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -110,6 +157,7 @@ a:hover {
 .Socials svg:hover {
   transform: scale(1.1);
 }
+
 
 .Socials path {
   fill: var(--textLink);
@@ -125,18 +173,23 @@ a:hover {
 
 
 @media (max-width: 640px) {
-
   .HeroGroup {
-    padding: 50px 20px;
+    padding: 50px 0;
   }
 
-  .Hero h1 {
-    font-size: 40px;
+
+  .HeroTextGroup h1 {
+    font-size: 36px;
   }
 
-  .Hero p {
-    font-size: 24px;
+  .HeroTextGroup p {
+    font-size: 22px;
   }
+
+  .Hero .Socials {
+    margin: 80px auto;
+  }
+
 
 
 }
