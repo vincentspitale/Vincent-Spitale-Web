@@ -52,12 +52,7 @@
     }
 
 
-    .Header a {
-        color: var(--textLink);
-    }
-
     .Header a:hover {
-        color: var(--textHover);
         transform: none;
         box-shadow: none;
         background: none;
