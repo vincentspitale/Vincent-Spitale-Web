@@ -63,13 +63,14 @@ a:hover {
 
 .Hero {
   background: var(--heroBackground);
-  height: 600px;
+  height: 100%;
   background-size: cover;
   background-position: center;
 }
 
 .HeroGroup {
-  padding: 200px 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
   display: grid;
   margin: 0 auto;
   max-width: 1200px;
@@ -77,24 +78,16 @@ a:hover {
 }
 
 @media (max-width: 1200px) {
-  .Hero {
-    height: 700px;
-  }
 
   .HeroGroup {
     grid-template-columns: none;
     grid-template-rows: repeat(2, auto);
-    padding: 100px 0;
   }
 
   .HeroGroup img {
     max-width: 200px;
-    padding: 50px 0px;
   }
 
-  .HeroTextGroup {
-    padding: 50px 20px;
-  }
 
  
 }
@@ -103,7 +96,7 @@ a:hover {
   margin: 0 auto;
   max-width: 250px;
   border-radius: 50%;
-  padding: 0 0px;
+  padding: 20px;
 }
 
 
@@ -114,6 +107,7 @@ a:hover {
   max-width: 600px;
   text-align: start;
   align-self: center;
+  padding: 20px;
 }
 
 
@@ -138,7 +132,7 @@ a:hover {
 }
 
 .Hero .Socials {
-  margin: 50px 0;
+  padding-top: 30px;
   max-width: 300px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -171,7 +165,7 @@ a:hover {
 
 @media (max-width: 640px) {
   .HeroGroup {
-    padding: 50px 0;
+    padding-top: 50px;
   }
 
 
@@ -184,16 +178,14 @@ a:hover {
   }
 
   .Hero .Socials {
-    margin: 80px auto;
+    margin: auto;
   }
 
   .HeroGroup img {
     max-width: 150px;
   }
 
-  .Hero {
-    height: 600px;
-  }
+
 
 }
 

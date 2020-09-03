@@ -11,7 +11,7 @@ const IndexPage = () => (
       <img src={require('../assets/me.jpg')}/>
       <div className="HeroTextGroup">
         <h1>Hi, I'm Vincent.</h1>
-        <p>I study computer science and mathematics at Northeastern University.</p>
+        <p>I'm a student, programmer, and diversity advocate.</p>
         <div className="Socials">
         <a href="https://www.linkedin.com/in/vincentspitale"> 
         <svg width="50" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
