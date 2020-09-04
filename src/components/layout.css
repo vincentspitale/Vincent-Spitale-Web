@@ -77,7 +77,7 @@ a:hover {
   grid-template-columns: repeat(2,auto);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
 
   .HeroGroup {
     grid-template-columns: none;
@@ -169,7 +169,11 @@ a:hover {
 
 @media (max-width: 640px) {
   .HeroGroup {
-    padding-top: 50px;
+    padding-top: 0px;
+  }
+
+  .HeroGroup img {
+    padding-top: 40px;
   }
 
 

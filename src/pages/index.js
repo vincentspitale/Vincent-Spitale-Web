@@ -8,7 +8,7 @@ const IndexPage = () => (
     <SEO title="About" />
     <div className="Hero">
       <div className="HeroGroup">
-      <img src={require('../assets/me.jpg')}/>
+      <img src={require('../images/me.jpg')}/>
       <div className="HeroTextGroup">
         <h1>Hi, I'm Vincent.</h1>
         <p>I'm a student, programmer, and diversity advocate.</p>
