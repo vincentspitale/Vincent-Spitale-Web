@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Vincent Spitale`,
-    description: `student, programmer, diversity advocate`,
+    description: `student, developer, diversity advocate`,
     keywords: 'Vincent Spitale, augmented reality, AR, inventory, multi, northeastern, visual positioning system, vps, swiftui, point cloud, ply',
     author: `Vincent Spitale`,
     lang: 'en',
