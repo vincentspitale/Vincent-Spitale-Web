@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Card from "../components/Card"
 
 const IndexPage = () => (
   <Layout>
@@ -41,6 +42,33 @@ const IndexPage = () => (
       
       </div>
     
+    </div>
+
+    <div className="CardWrapper">
+    <div className="InfoCards">
+      <Card>
+        <h4>My Anthem</h4>
+        <a href="https://songwhip.com/vampire-weekend/walcott">
+        <div className="Song">
+        <img src={require('../images/vw.jpg')}/>
+        <div className="TitleArtist">
+        <div className="SongTitle"><p>Walcott</p></div>
+        <p>Vampire Weekend </p>
+        </div>
+        </div>
+        </a>
+        <h4>On Repeat</h4>
+        <a href="https://songwhip.com/christine-and-the-queens/i-disappear-in-your-arms-bonus">
+        <div className="Song">
+        <img src={require('../images/lavitanuova.jpg')}/>
+        <div className="TitleArtist">
+        <div className="SongTitle"> <p>I disappear in your arms</p></div>
+        <p>Christine and the Queens </p>
+        </div>
+        </div>
+        </a>
+      </Card>
+    </div>
     </div>
     
   </Layout>

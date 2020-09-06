@@ -13,7 +13,7 @@
     align-items: center;
     justify-items: center;
     background: var(--transparentMaterial);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(20px);
     padding: 5px 10px;
     border-radius: 30px;
 }
@@ -39,7 +39,7 @@
         position: relative;
         padding: 10px 0;
         background: var(--bg);
-        backdrop-filter: blur(4px);
+        backdrop-filter: blur(20px);
         
     }
 
