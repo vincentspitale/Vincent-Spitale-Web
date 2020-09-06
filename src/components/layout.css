@@ -97,6 +97,12 @@ a:hover {
   display: flex;
 }
 
+
+
+.SongCard h4 {
+  margin: 10px;
+}
+
 .Song {
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -106,6 +112,11 @@ a:hover {
   border-radius: 20px;
   padding: 8px;
   color: var(--textNormal)
+}
+
+.Song img {
+  width: 80px;
+  border-radius: 15px;
 }
 
 .Song:hover {

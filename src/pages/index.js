@@ -47,6 +47,7 @@ const IndexPage = () => (
     <div className="CardWrapper">
     <div className="InfoCards">
       <Card>
+      <div className="SongCard">
         <h4>My Anthem</h4>
         <a href="https://songwhip.com/vampire-weekend/walcott">
         <div className="Song">
@@ -67,6 +68,7 @@ const IndexPage = () => (
         </div>
         </div>
         </a>
+        </div>
       </Card>
     </div>
     </div>

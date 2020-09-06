@@ -11,11 +11,5 @@
 
 
 
-.Card img {
-    width: 80px;
-    border-radius: 15px;
-}
 
-.Card:hover {
-    opacity: 50;
-}
+
