@@ -45,7 +45,11 @@ const IndexPage = () => (
     </div>
 
     <div className="CardWrapper">
+    <div className="HorScrollWrapper">
     <div className="InfoCards">
+      <Card>
+      <p>My name is Vincent Spitale. I currently study computer science and mathematics at Northeastern University. </p>
+      </Card>
       <Card>
       <div className="SongCard">
         <h4>My Anthem</h4>
@@ -70,6 +74,7 @@ const IndexPage = () => (
         </a>
         </div>
       </Card>
+    </div>
     </div>
     </div>
     

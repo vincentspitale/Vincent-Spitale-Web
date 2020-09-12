@@ -9,10 +9,25 @@
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.CardWrapper {
+.CardPadding {
     padding: 15px;
+    float: left;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
+@media (max-width: 640px) {
+    .CardPadding {
+        float: none;
+        flex-shrink: 1;
+        margin: 0 auto;
+    }
+}
+
+
+.Card h4 {
+    margin: 10px 0;
+  }
 
 
 
