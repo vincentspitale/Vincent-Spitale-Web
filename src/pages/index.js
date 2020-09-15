@@ -48,7 +48,7 @@ const IndexPage = () => (
     <div className="HorScrollWrapper">
     <div className="InfoCards">
       <Card>
-      <p>My name is Vincent Spitale. I currently study computer science and mathematics at Northeastern University. My personal work centers around finding unconventional uses for augmented reality that are powered by advanced algorithms. I also lead inclusive workshops that aim to make the tech industry accessible and inviting to everyone. When I'm not immersed in code, I enjoy biking while listening to Biking by Frank Ocean. If you're interested in my skills or want to critique my music taste, feel free to contact me.</p>
+      <p>My name is Vincent Spitale. I currently study computer science and mathematics at Northeastern University. My personal work centers around finding unconventional uses for augmented reality that are powered by advanced algorithms. I also lead inclusive workshops that aim to make the tech industry accessible and inviting to everyone. If you're interested in my skills or want to critique my affinity for the color lavender, feel free to contact me.</p>
       </Card>
       <Card>
       <div className="SongCard">
