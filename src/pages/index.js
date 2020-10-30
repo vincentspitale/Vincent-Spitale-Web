@@ -44,15 +44,14 @@ const IndexPage = () => (
     
     </div>
 
-    <div className="CardWrapper">
     <div className="HorScrollWrapper">
     <div className="InfoCards">
       <Card>
-      <p>My name is Vincent Spitale. I currently study computer science and mathematics at Northeastern University. My personal work centers around finding unconventional uses for augmented reality that are powered by advanced algorithms. I also lead inclusive workshops that aim to make the tech industry accessible and inviting to everyone. If you're interested in my skills or want to critique my love for the color lavender, feel free to contact me.</p>
+      <p>My name is Vincent Spitale. I currently study computer science and mathematics at Northeastern University. My personal work centers around finding unconventional uses for augmented reality that are powered by advanced algorithms. I also lead inclusive workshops that aim to make the tech industry accessible and inviting to everyone. If you're interested in my skills, feel free to contact me.</p>
       </Card>
       <Card>
       <div className="SongCard">
-        <h4>My Anthem</h4>
+        <h4>My Song</h4>
         <a href="https://songwhip.com/vampire-weekend/walcott" target="_blank">
         <div className="Song">
         <img src={require('../images/vw.jpg')}/>
@@ -63,11 +62,11 @@ const IndexPage = () => (
         </div>
         </a>
         <h4>On Repeat</h4>
-        <a href="https://songwhip.com/christine-and-the-queens/i-disappear-in-your-arms-bonus" target="_blank">
+        <a href="https://songwhip.com/christine-and-the-queens/la-vita-nuova" target="_blank">
         <div className="Song">
         <img src={require('../images/lavitanuova.jpg')}/>
         <div className="TitleArtist">
-        <div className="SongTitle"> <p>I disappear in your arms</p></div>
+        <div className="SongTitle"> <p>La vita nuova</p></div>
         <p>Christine and the Queens </p>
         </div>
         </div>
@@ -76,6 +75,8 @@ const IndexPage = () => (
       </Card>
     </div>
     </div>
+    <div className="HeroTextGroup">
+    <p>More about me coming soon.</p>
     </div>
     
   </Layout>
