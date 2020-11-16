@@ -48,7 +48,7 @@ const IndexPage = () => (
     <div className="InfoCards">
       <Card>
       <div className="Important">
-      <p>My name is Vincent Spitale. I'm a he/they currently studying computer science and mathematics at Northeastern University. 
+      <p>My name is Vincent Spitale. I'm a he/they studying computer science and mathematics at Northeastern University. 
       <br/>
       <br/>
       Outside of class, I experiment with app development and augmented reality tech. I've found AR to be a perfect way for me to bring togther my love for visual and technical detail. I also lead workshops that aim to make the tech industry accessible and inviting to everyone.
