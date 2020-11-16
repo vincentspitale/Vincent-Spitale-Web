@@ -44,14 +44,25 @@ const IndexPage = () => (
     
     </div>
 
-    <div className="HorScrollWrapper">
+    
     <div className="InfoCards">
       <Card>
-      <p>My name is Vincent Spitale. I currently study computer science and mathematics at Northeastern University. My personal work centers around finding unconventional uses for augmented reality that are powered by advanced algorithms. I also lead inclusive workshops that aim to make the tech industry accessible and inviting to everyone. If you're interested in my skills, feel free to contact me.</p>
+      <div className="Important">
+      <p>My name is Vincent Spitale. I'm a he/they currently studying computer science and mathematics at Northeastern University. 
+      <br/>
+      <br/>
+      Outside of class, I experiment with app development and augmented reality tech. I've found AR to be a perfect way for me to bring togther my love for visual and technical detail. I also lead workshops that aim to make the tech industry accessible and inviting to everyone.
+      <br/>
+      <br/>
+      Art and photography used to have a much larger role in my life, but immersing myself in programming has almost eclipsed those hobbies. However, part of that passion still remains as I'm currently in charge of design at <a href="https://numulti.com" target="_blank">MULTI</a>, Northeastern's undergaduate students for diversity & inclusion in tech.
+      <br/>
+      <br/>
+      If you think I might be the right fit for a role, please reach out.
+      </p>
+      </div>
       </Card>
       <Card>
-      <div className="SongCard">
-        <h4>My Song</h4>
+        <h3>Favorite Songs</h3>
         <a href="https://songwhip.com/vampire-weekend/walcott" target="_blank">
         <div className="Song">
         <img src={require('../images/vw.jpg')}/>
@@ -61,7 +72,6 @@ const IndexPage = () => (
         </div>
         </div>
         </a>
-        <h4>On Repeat</h4>
         <a href="https://songwhip.com/christine-and-the-queens/la-vita-nuova" target="_blank">
         <div className="Song">
         <img src={require('../images/lavitanuova.jpg')}/>
@@ -71,12 +81,51 @@ const IndexPage = () => (
         </div>
         </div>
         </a>
+      <br/>
+      <h3>My Skillset</h3>
+        <div className="Tags">
+        <div className="Tag">
+        <p>Java</p>
+        </div>
+        <div className="Tag">
+        <p>Kotlin</p>
+        </div>
+        <div className="Tag">
+        <p>Swift</p>
+        </div>
+        <div className="Tag">
+        <p>SwiftUI</p>
+        </div>
+        <div className="Tag">
+        <p>ARKit</p>
+        </div>
+        <div className="Tag">
+        <p>AWS Amplify</p>
+        </div>
+        <div className="Tag">
+        <p>GraphQL</p>
+        </div>
+        <div className="Tag">
+        <p>Javascript</p>
+        </div>
+        <div className="Tag">
+        <p>Python</p>
+        </div>
+        <div className="Tag">
+        <p>Computer Vision</p>
+        </div>
+        <div className="Tag">
+        <p>Object-oriented Programming</p>
+        </div>
+        <div className="Tag">
+        <p>Functional Programming</p>
+        </div>
         </div>
       </Card>
+      
     </div>
-    </div>
+
     <div className="HeroTextGroup">
-    <p>More about me coming soon.</p>
     </div>
     
   </Layout>

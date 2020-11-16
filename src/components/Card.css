@@ -1,28 +1,22 @@
 .Card {
-    background: var(--cardBackground);
-    padding: 20px;
-    max-width: 400px;
-    border-radius: 30px;
+    max-width: 500px;
     align-items: start;
     backdrop-filter: blur(20px);
-    display: flex;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
+@media (max-width: 640px) {
+    .Card {
+        margin: auto;
+    }
+}
+
 .CardPadding {
-    padding: 15px;
-    float: left;
+    padding: 20px;
     flex-grow: 0;
     flex-shrink: 0;
 }
 
-@media (max-width: 640px) {
-    .CardPadding {
-        float: none;
-        flex-shrink: 1;
-        margin: 0 auto;
-    }
-}
 
 
 .Card h4 {
