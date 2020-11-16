@@ -5,7 +5,9 @@ import './Footer.css'
 
 const Footer = ({ siteTitle }) => (
   <div className="Footer">
-  <div className="Socials">
+
+    <p>Vincent Spitale © {new Date().getFullYear()}</p>
+    <div className="Socials">
         <a href="https://www.linkedin.com/in/vincentspitale" target="_blank"> 
         <svg width="30" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.181818 24.6023H5.02273V7.14773H0.181818V24.6023ZM2.61364 4.89773C4.05682 4.89773 5.23864 3.79546 5.23864 2.44318C5.23864 1.10227 4.05682 0 2.61364 0C1.18182 0 0 1.10227 0 2.44318C0 3.79546 1.18182 4.89773 2.61364 4.89773Z" fill="black"/>
@@ -30,7 +32,6 @@ const Footer = ({ siteTitle }) => (
       </a>
          
           </div>
-    <p>Vincent Spitale © {new Date().getFullYear()}</p>
   </div>
 )
 

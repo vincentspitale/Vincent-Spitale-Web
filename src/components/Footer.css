@@ -3,7 +3,8 @@
     padding: 20px 20px;
     display: grid;
     justify-items: center;
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 40px;
 }
 
 
