@@ -82,7 +82,7 @@ const IndexPage = () => (
         </div>
         </a>
       <br/>
-      <h3>My Skillset</h3>
+      <h3>My Skills</h3>
         <div className="Tags">
         <div className="Tag">
         <p>Java</p>
