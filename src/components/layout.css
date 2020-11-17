@@ -76,6 +76,7 @@ a:hover {
 
 .HeroGroup {
   padding-top: 100px;
+  padding-bottom: 40px;
   display: grid;
   margin: 0 auto;
   max-width: 1000px;
@@ -274,6 +275,7 @@ a:hover {
 @media (max-width: 640px) {
   .HeroGroup {
     padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .HeroGroup img {
