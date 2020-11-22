@@ -106,7 +106,7 @@ const IndexPage = () => (
         <p>GraphQL</p>
         </div>
         <div className="Tag">
-        <p>Javascript</p>
+        <p>JavaScript</p>
         </div>
         <div className="Tag">
         <p>Python</p>
