@@ -273,6 +273,10 @@ a:hover {
 
 
 @media (max-width: 640px) {
+  .HeroGroup {
+    padding-top: 80px;
+  }
+
 
 
   .HeroTextGroup h1 {
