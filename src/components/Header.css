@@ -6,10 +6,10 @@
 }
 
 .HeaderGroup {
-    max-Width: 300px;
+    max-Width: 200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
     align-items: center;
     justify-items: center;
     background: var(--transparentMaterial);
@@ -33,33 +33,3 @@
     box-shadow: 0 5px 5px var(--shadow);
 }
 
-
-@media (max-width: 640px) {
-    .Header {
-        position: relative;
-        padding: 10px 0;
-        background: var(--bg);
-        backdrop-filter: blur(20px);
-        
-    }
-
-    .HeaderGroup {
-        background: transparent;
-        border-radius: none;
-        backdrop-filter: none;
-        margin-left: auto;
-        margin-right: 0;
-    }
-
-
-    .Header a:hover {
-        transform: none;
-        box-shadow: none;
-        background: none;
-    }
-
-    .Header a {
-        padding: none;
-    }
-
-}
