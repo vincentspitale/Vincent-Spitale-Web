@@ -24,8 +24,8 @@ body {
   background-color: var(--bg);
   color: var(--textNormal)
 }
-
-body.dark {
+@media (prefers-color-scheme: dark) {
+body {
   --bg: black;
   --textNormal: white;
   --textLink: #B7FFDC;
@@ -38,6 +38,7 @@ body.dark {
   --textTransparent: rgba(255,255,255,0.8);
 
   
+}
 }
 
 
