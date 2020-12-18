@@ -2,9 +2,11 @@ import React from "react"
 import Layout from "../components/layout"
 import Card from "../components/Card"
 import Spotify from "../components/spotify"
+import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+  <SEO title="About" />
     <div className="Hero">
       <div className="HeroGroup">
       <img src={require('../images/me.jpg')}/>

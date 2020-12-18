@@ -46,7 +46,7 @@ class Spotify extends Component {
         var response = 'Last Listened To 🎶'
 
         if (result.isPlaying) {
-            response = 'Currently Listenting To 🎶'
+            response = 'Currently Listening To 🎶'
         }
 
         return(
