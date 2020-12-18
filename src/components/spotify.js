@@ -42,11 +42,14 @@ class Spotify extends Component {
                 <div className="Spotify"></div>
             )
         }
-
-        var response = 'Last Listened To 🎶'
+        
+        var response = '🎶'
 
         if (result.isPlaying) {
-            response = 'Currently Listening To 🎶'
+            response = 'Currently Listening To ' + response
+        }
+        else {
+            response = 'Last Listened To ' + response
         }
 
         return(

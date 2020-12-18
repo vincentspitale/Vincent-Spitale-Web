@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import Card from "../components/Card"
 import Spotify from "../components/spotify"
 import SEO from "../components/seo"
+import ClientOnly from "../components/client-only"
 
 const IndexPage = () => (
   <Layout>
@@ -61,7 +62,9 @@ const IndexPage = () => (
       </div>
       </Card>
       <Card>
+      <ClientOnly>
         <Spotify />
+        </ClientOnly>
       <br/>
       <h3>My Skills</h3>
         <div className="Tags">
