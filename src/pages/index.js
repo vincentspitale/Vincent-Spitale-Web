@@ -1,18 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import Card from "../components/Card"
+import Spotify from "../components/spotify"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="About" />
     <div className="Hero">
       <div className="HeroGroup">
       <img src={require('../images/me.jpg')}/>
       <div className="HeroTextGroup">
-        <h1>Hi, I'm Vincent.</h1>
-        <p>I'm a student, developer, and diversity advocate.</p>
+        <p>Hey there, I'm</p>
+        <h1>Vincent <span className="lastName">Spitale</span></h1>
+        <p>a student, developer, and diversity advocate</p>
         <div className="Socials">
         <a href="https://www.linkedin.com/in/vincentspitale" target="_blank"> 
         <svg width="50" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,7 +21,7 @@ const IndexPage = () => (
           </a>
           <a href="https://www.github.com/vincentspitale" target="_blank"> 
           <svg  width="50" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 0C7.83125 0 0 7.83125 0 17.5C0 25.2437 5.00937 31.7844 11.9656 34.1031C12.8406 34.2563 13.1687 33.7313 13.1687 33.2719C13.1687 32.8563 13.1469 31.4781 13.1469 30.0125C8.75 30.8219 7.6125 28.9406 7.2625 27.9562C7.06562 27.4531 6.2125 25.9 5.46875 25.4844C4.85625 25.1562 3.98125 24.3469 5.44688 24.325C6.825 24.3031 7.80938 25.5937 8.1375 26.1187C9.7125 28.7656 12.2281 28.0219 13.2344 27.5625C13.3875 26.425 13.8469 25.6594 14.35 25.2219C10.4562 24.7844 6.3875 23.275 6.3875 16.5812C6.3875 14.6781 7.06563 13.1031 8.18125 11.8781C8.00625 11.4406 7.39375 9.64687 8.35625 7.24062C8.35625 7.24062 9.82188 6.78125 13.1687 9.03438C14.5687 8.64063 16.0563 8.44375 17.5438 8.44375C19.0313 8.44375 20.5188 8.64063 21.9188 9.03438C25.2656 6.75938 26.7313 7.24062 26.7313 7.24062C27.6938 9.64687 27.0813 11.4406 26.9063 11.8781C28.0219 13.1031 28.7 14.6562 28.7 16.5812C28.7 23.2969 24.6094 24.7844 20.7156 25.2219C21.35 25.7687 21.8969 26.8188 21.8969 28.4594C21.8969 30.8 21.875 32.6813 21.875 33.2719C21.875 33.7313 22.2031 34.2781 23.0781 34.1031C29.9906 31.7844 35 25.2219 35 17.5C35 7.83125 27.1688 0 17.5 0Z" fill="black"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M17.5 0C7.83125 0 0 7.83125 0 17.5C0 25.2437 5.00937 31.7844 11.9656 34.1031C12.8406 34.2563 13.1687 33.7313 13.1687 33.2719C13.1687 32.8563 13.1469 31.4781 13.1469 30.0125C8.75 30.8219 7.6125 28.9406 7.2625 27.9562C7.06562 27.4531 6.2125 25.9 5.46875 25.4844C4.85625 25.1562 3.98125 24.3469 5.44688 24.325C6.825 24.3031 7.80938 25.5937 8.1375 26.1187C9.7125 28.7656 12.2281 28.0219 13.2344 27.5625C13.3875 26.425 13.8469 25.6594 14.35 25.2219C10.4562 24.7844 6.3875 23.275 6.3875 16.5812C6.3875 14.6781 7.06563 13.1031 8.18125 11.8781C8.00625 11.4406 7.39375 9.64687 8.35625 7.24062C8.35625 7.24062 9.82188 6.78125 13.1687 9.03438C14.5687 8.64063 16.0563 8.44375 17.5438 8.44375C19.0313 8.44375 20.5188 8.64063 21.9188 9.03438C25.2656 6.75938 26.7313 7.24062 26.7313 7.24062C27.6938 9.64687 27.0813 11.4406 26.9063 11.8781C28.0219 13.1031 28.7 14.6562 28.7 16.5812C28.7 23.2969 24.6094 24.7844 20.7156 25.2219C21.35 25.7687 21.8969 26.8188 21.8969 28.4594C21.8969 30.8 21.875 32.6813 21.875 33.2719C21.875 33.7313 22.2031 34.2781 23.0781 34.1031C29.9906 31.7844 35 25.2219 35 17.5C35 7.83125 27.1688 0 17.5 0Z" fill="black"/>
 </svg>
           </a>
           <a href="https://www.twitter.com/vincentspitale" target="_blank"> 
@@ -48,13 +47,11 @@ const IndexPage = () => (
     <div className="InfoCards">
       <Card>
       <div className="Important">
-      <p>My name is Vincent Spitale. I'm a he/they studying computer science and mathematics at Northeastern University. 
+      <p>I'm a <a href="https://pronoun.is/he?or=they" target="_blank">
+      he/they</a> studying computer science and mathematics at Northeastern University. 
       <br/>
       <br/>
-      Outside of class, I experiment with app development and augmented reality tech. I've found AR to be a perfect way for me to bring togther my love for visual and technical detail. I also lead workshops that aim to make the tech industry accessible and inviting to everyone.
-      <br/>
-      <br/>
-      Art and photography used to have a much larger role in my life, but immersing myself in programming has almost eclipsed those hobbies. However, part of that passion still remains as I'm currently in charge of design at <a href="https://numulti.com" target="_blank">MULTI</a>, Northeastern's undergraduate students for diversity & inclusion in tech.
+      Outside of class, I experiment with app development and augmented reality tech. I've found AR to be a perfect way for me to bring togther my love for visual and technical detail. I also lead workshops that aim to make the tech industry accessible and inviting to everyone. I'm currently in charge of design at <a href="https://numulti.com" target="_blank">MULTI</a>, Northeastern's undergraduate students for diversity & inclusion in tech.
       <br/>
       <br/>
       If you think I might be the right fit for a role, please reach out.
@@ -62,25 +59,7 @@ const IndexPage = () => (
       </div>
       </Card>
       <Card>
-        <h3>Favorite Songs</h3>
-        <a href="https://songwhip.com/vampire-weekend/walcott" target="_blank">
-        <div className="Song">
-        <img src={require('../images/vw.jpg')}/>
-        <div className="TitleArtist">
-        <div className="SongTitle"><p>Walcott</p></div>
-        <p>Vampire Weekend </p>
-        </div>
-        </div>
-        </a>
-        <a href="https://songwhip.com/christine-and-the-queens/la-vita-nuova" target="_blank">
-        <div className="Song">
-        <img src={require('../images/lavitanuova.jpg')}/>
-        <div className="TitleArtist">
-        <div className="SongTitle"> <p>La vita nuova</p></div>
-        <p>Christine and the Queens </p>
-        </div>
-        </div>
-        </a>
+        <Spotify />
       <br/>
       <h3>My Skills</h3>
         <div className="Tags">
@@ -126,6 +105,7 @@ const IndexPage = () => (
     </div>
 
     <div className="HeroTextGroup">
+    
     </div>
     
   </Layout>

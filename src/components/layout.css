@@ -3,8 +3,8 @@
 
 body {
   --bg: white;
-  --textNormal: black;
-  --textLink: #04693E;
+  --textNormal: #333;
+  --textLink: #236549;
   --textHover: black;
   --contrastMaterial: white;
   --transparentMaterial: rgba(245, 245, 245, 0.8);
@@ -216,9 +216,7 @@ a:hover {
 
 
 .HeroTextGroup h1 {
-  background: var(--textGradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--textLink);
   margin: 0;
   font-size: 60px;
   line-height: 1.2;
@@ -227,11 +225,10 @@ a:hover {
 }
 
 .HeroTextGroup p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
-  color: var(--textTransparent);
-  line-height: 1.5;
-  animation: HeroAnimation 2s 0.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  line-height: 0.5;
+  animation: HeroAnimation 2s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 }
 
@@ -274,17 +271,15 @@ a:hover {
 
 @media (max-width: 640px) {
   .HeroGroup {
-    padding-top: 80px;
+    padding-top: 40px;
   }
-
-
 
   .HeroTextGroup h1 {
     font-size: 36px;
   }
 
   .HeroTextGroup p {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .Hero .Socials {
@@ -295,6 +290,8 @@ a:hover {
 
 
 }
+
+
 
 @keyframes HeroAnimation {
   0% {
@@ -315,4 +312,21 @@ a:hover {
   100% {
     opacity: 100;
   }
+}
+
+@keyframes LastNameOpacity {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.4;
+  }
+}
+
+
+
+
+.lastName {
+  animation: LastNameOpacity 10s 3s forwards ease-in;
 }
