@@ -84,16 +84,19 @@ const IndexPage = () => (
         <p>ARKit</p>
         </div>
         <div className="Tag">
-        <p>AWS Amplify</p>
-        </div>
-        <div className="Tag">
-        <p>GraphQL</p>
+        <p>Python</p>
         </div>
         <div className="Tag">
         <p>JavaScript</p>
         </div>
         <div className="Tag">
-        <p>Python</p>
+        <p>TypeScript</p>
+        </div>
+        <div className="Tag">
+        <p>React</p>
+        </div>
+        <div className="Tag">
+        <p>GraphQL</p>
         </div>
         <div className="Tag">
         <p>Computer Vision</p>
