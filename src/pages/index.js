@@ -14,7 +14,7 @@ const IndexPage = () => (
       <div className="HeroTextGroup">
         <p>Hey there, I'm</p>
         <h1>Vincent <span className="lastName">Spitale</span></h1>
-        <p>a student, developer, and diversity advocate</p>
+        <p>a student, software engineer, and diversity advocate</p>
         <div className="Socials">
         <a href="https://www.linkedin.com/in/vincentspitale" target="_blank"> 
         <svg width="50" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
