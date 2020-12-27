@@ -33,7 +33,7 @@ body {
   --contrastMaterial: black;
   --transparentMaterial: rgba(32, 32, 32, 0.8);
   --heroBackground: linear-gradient(180deg, #1D4733 0%, #0D2617 41.15%, #000000 100%);
-  --cardBackground: linear-gradient(180deg, rgba(18, 72, 43, 0.5) 0%, rgba(10, 77, 40, 0.5) 100%);
+  --cardBackground: linear-gradient(180deg, rgba(63, 99, 80, 0.5) 0%, rgba(50, 94, 71, 0.5) 100%);
   --textGradient: linear-gradient(180deg, #D0FFE9 0%, #D5FFEB 100%);
   --textTransparent: rgba(255,255,255,0.8);
 
