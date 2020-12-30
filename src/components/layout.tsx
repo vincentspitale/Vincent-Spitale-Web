@@ -14,7 +14,7 @@ import "./layout.css"
 const Layout = ({children}) => {
 
       return (<div className="container">
-        <SEO/>
+        <SEO title="Vincent Spitale" />
         <div className="content">
         <main>{children}</main>
         </div>
