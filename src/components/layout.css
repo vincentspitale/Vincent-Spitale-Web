@@ -27,7 +27,7 @@ body {
 @media (prefers-color-scheme: dark) {
 body {
   --bg: black;
-  --textNormal: white;
+  --textNormal: #BBBBBB;
   --textLink: #B7FFDC;
   --textHover: white;
   --contrastMaterial: black;
