@@ -203,6 +203,7 @@
   @media (max-width: 640px) {
     .HeroGroup {
       padding-top: 40px;
+      padding-bottom: 0px;
     }
   
     .HeroTextGroup h1 {
@@ -214,6 +215,7 @@
     }
   
     .Hero .Socials {
+      padding-top: 20px;
       margin: auto;
       grid-gap: 20px;
     }
