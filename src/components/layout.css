@@ -52,6 +52,9 @@ a:hover {
   color: var(--textHover);
 }
 
+h3 {
+  color: var(--textHover);
+}
 
 
 .container {
