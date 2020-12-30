@@ -35,7 +35,7 @@ class Spotify extends Component {
     }
 
     render() {
-        const result = this.state
+        const result = this.state as {songName: string, artistName: string, image: string, link: string, isPlaying: boolean, isLoading: boolean}
 
         if (result.isLoading) {
             return (

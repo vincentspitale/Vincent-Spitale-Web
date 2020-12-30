@@ -7,23 +7,14 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-import Helmet from 'react-helmet'
+import SEO from "../components/seo"
 import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({children}) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
 
       return (<div className="container">
+        <SEO/>
         <div className="content">
         <main>{children}</main>
         </div>

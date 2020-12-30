@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import './Footer.css'
 
-const Footer = ({ siteTitle }) => (
+const Footer = ({ }) => (
   <div className="Footer">
 
     <p>Vincent Spitale © {new Date().getFullYear()}</p>
