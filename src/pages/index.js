@@ -1,9 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
-import Card from "../components/Card"
+import Section from "../components/Section"
 import Spotify from "../components/spotify"
 import SEO from "../components/seo"
 import ClientOnly from "../components/client-only"
+import "../components/index.css"
 
 const IndexPage = () => (
   <Layout>
@@ -47,8 +48,8 @@ const IndexPage = () => (
     </div>
 
     
-    <div className="InfoCards">
-      <Card>
+    <div className="InfoSections">
+      <Section>
       <div className="Important">
       <p>I'm a <a href="https://pronoun.is/he?or=they" target="_blank">
       he/they</a> studying computer science and mathematics at Northeastern University. 
@@ -60,8 +61,8 @@ const IndexPage = () => (
       If you think I might be the right fit for a role, please reach out.
       </p>
       </div>
-      </Card>
-      <Card>
+      </Section>
+      <Section>
       <ClientOnly>
         <Spotify />
         </ClientOnly>
@@ -108,7 +109,7 @@ const IndexPage = () => (
         <p>Functional Programming</p>
         </div>
         </div>
-      </Card>
+      </Section>
       
     </div>
 
