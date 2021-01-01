@@ -1,7 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
-import Section from "../components/Section"
+import Section from "../components/section"
 import Spotify from "../components/spotify"
+import Skills from "../components/skills"
 import ClientOnly from "../components/client-only"
 import "../components/index.css"
 
@@ -60,47 +61,7 @@ const IndexPage = () => (
         </ClientOnly>
       <br/>
       <h3>My Skills</h3>
-        <div className="Tags">
-        <div className="Tag">
-        <p>Java</p>
-        </div>
-        <div className="Tag">
-        <p>Kotlin</p>
-        </div>
-        <div className="Tag">
-        <p>Swift</p>
-        </div>
-        <div className="Tag">
-        <p>SwiftUI</p>
-        </div>
-        <div className="Tag">
-        <p>ARKit</p>
-        </div>
-        <div className="Tag">
-        <p>Python</p>
-        </div>
-        <div className="Tag">
-        <p>JavaScript</p>
-        </div>
-        <div className="Tag">
-        <p>TypeScript</p>
-        </div>
-        <div className="Tag">
-        <p>React</p>
-        </div>
-        <div className="Tag">
-        <p>GraphQL</p>
-        </div>
-        <div className="Tag">
-        <p>Computer Vision</p>
-        </div>
-        <div className="Tag">
-        <p>Object-oriented Programming</p>
-        </div>
-        <div className="Tag">
-        <p>Functional Programming</p>
-        </div>
-        </div>
+       <Skills />
       </Section>
       <Section>
       <div className="Important">

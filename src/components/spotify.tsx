@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import './spotify.css'
 
 class Spotify extends Component {
     constructor(props) {

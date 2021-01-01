@@ -1,0 +1,39 @@
+
+  .Song {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: start;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    justify-content: start;
+    border-radius: 20px;
+    padding: 10px;
+    color: var(--textNormal);
+    font-weight: 400;
+  }
+  
+  .Song img {
+    width: 80px;
+    border-radius: 15px;
+  }
+  
+  .Song:hover {
+    background: var(--cardBackground);
+    transform: scale(1.05);
+  }
+  
+  .TitleArtist {
+    padding-left: 15px;
+    
+  }
+  
+  .SongTitle p {
+    color: var(--textLink);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .TitleArtist p {
+    margin: 5px;
+  
+  }
+  
