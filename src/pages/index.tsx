@@ -11,9 +11,6 @@ const IndexPage = () => (
     <div className="Padding">
       <div className="HeroGroup">
       <div className="HeroTextGroup">
-        <div className="SmallProfile">
-      <img src={require('../images/me2.jpg')}/>
-        </div>
         <p>Hey there, I'm</p>
         <h1>Vincent <span className="lastName">Spitale</span></h1>
         <p>a student, software engineer, and diversity advocate</p>

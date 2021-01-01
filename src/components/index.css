@@ -82,12 +82,6 @@
     padding: 20px;
   }
   
-  .SmallProfile img {
-    visibility: hidden;
-    max-width: 0px;
-    padding: 0 !important;
-  }
-  
   
   
   .HeroTextGroup {
@@ -182,12 +176,6 @@
       max-width: 0;
       visibility: hidden;
       padding: 0px !important;
-    }
-
-    .SmallProfile img {
-      visibility: visible;
-      max-width: 100px;
-      border-radius: 50%;
     }
 
     .Padding {
