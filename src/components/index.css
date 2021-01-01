@@ -18,22 +18,7 @@
   }
   
   
-  .Tags p {
-    color: var(--textLink);
-    font-weight: 600;
-    padding: 5px 8px;
-    border-radius: 25px;
-    margin: auto;
-    text-align: center;
-    background: var(--cardBackground);
-  }
-  
-  .Tag {
-    position: relative;
-    display: inline-block;
-    padding: 5px;
-  }
-  
+
   
   
   .InfoSections {
@@ -100,6 +85,7 @@
   .SmallProfile img {
     visibility: hidden;
     max-width: 0px;
+    padding: 0 !important;
   }
   
   
