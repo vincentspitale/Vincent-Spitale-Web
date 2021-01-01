@@ -10,7 +10,7 @@
   
   .HeroGroup {
     padding-top: 100px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     display: grid;
     margin: 0 auto;
     max-width: 1100px;
@@ -147,15 +147,7 @@
   
   
   
-  @media (max-width: 1000px) {
 
-    .HeroGroup {
-      padding-top: 40px;
-      padding-bottom: 0px;
-    }
-  
-  
-  }
 
   @media (max-width: 820px) {
     .Hero .Socials {
