@@ -8,8 +8,8 @@ import "../components/index.css"
 const IndexPage = () => (
   <Layout>
     <div className="Hero">
+    <div className="Padding">
       <div className="HeroGroup">
-      <img src={require('../images/me.jpg')}/>
       <div className="HeroTextGroup">
         <p>Hey there, I'm</p>
         <h1>Vincent <span className="lastName">Spitale</span></h1>
@@ -40,12 +40,15 @@ const IndexPage = () => (
          
           </div>
       </div>
-      
+
+      <img src={require('../images/me.jpg')}/>
       </div>
+      </div>
+      
     
     </div>
 
-    
+    <div className="Padding">
     <div className="InfoSections">
       <Section>
       <div className="Important">
@@ -110,10 +113,8 @@ const IndexPage = () => (
       </Section>
       
     </div>
-
-    <div className="HeroTextGroup">
-    
     </div>
+
     
   </Layout>
 )
