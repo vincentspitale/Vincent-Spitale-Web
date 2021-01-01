@@ -73,6 +73,9 @@
     .HeroTextGroup p {
       font-size: 18px !important;
     }
+
+
+
   }
   
   .Important p {
@@ -80,10 +83,7 @@
   }
   
   
-  .Photo img {
-    margin: 0 auto;
-    max-width: 500px;
-  }
+
   
   
   
@@ -135,6 +135,10 @@
     padding: 20px;
   }
   
+  .SmallProfile img {
+    visibility: hidden;
+    max-width: 0px;
+  }
   
   
   
@@ -208,18 +212,12 @@
       padding-bottom: 0px;
     }
   
-
-  
-    
-  
-  
   
   }
 
   @media (max-width: 820px) {
     .Hero .Socials {
       padding-top: 20px;
-      margin: auto;
       grid-gap: 20px;
     }
 
@@ -232,7 +230,15 @@
 
 
     .HeroGroup img {
-      margin: 0 auto;
+      max-width: 0;
+      visibility: hidden;
+      padding: 0px !important;
+    }
+
+    .SmallProfile img {
+      visibility: visible;
+      max-width: 100px;
+      border-radius: 50%;
     }
 
     .Padding {
