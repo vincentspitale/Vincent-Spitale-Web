@@ -216,8 +216,11 @@
 
     .HeroGroup {
       grid-template-columns: none;
-      grid-template-rows: repeat(2, auto);
+      grid-template-rows: none;
+      display: flex;
+      flex-direction: column-reverse;
     }
+
 
     .HeroGroup img {
       margin: 0 auto;
