@@ -186,6 +186,7 @@
   
   
   @media (max-width: 1000px) {
+
     .HeroGroup {
       padding-top: 40px;
       padding-bottom: 0px;
@@ -223,7 +224,7 @@
     }
 
     .Padding {
-      padding: 0 0px;
+      padding: 0 !important;
     }
 
   }
