@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import Section from "../components/section"
 import Spotify from "../components/spotify"
 import Skills from "../components/skills"
-import ClientOnly from "../components/client-only"
 import "../components/index.css"
 
 const IndexPage = () => (
@@ -56,9 +55,7 @@ const IndexPage = () => (
     <div className="InfoSections">
 
     <Section>
-      <ClientOnly>
         <Spotify />
-        </ClientOnly>
       <br/>
       <h3>My Skills</h3>
        <Skills />
