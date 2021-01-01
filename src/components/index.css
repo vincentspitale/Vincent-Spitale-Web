@@ -44,6 +44,14 @@
     max-width: 1100px;
     margin: 0 auto;
   }
+
+  @media(max-width: 820px) {
+    .InfoSections {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+  }
   
   
   @media (max-width: 1000px) {
