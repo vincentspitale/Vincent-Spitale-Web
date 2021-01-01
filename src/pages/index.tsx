@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import Section from "../components/section"
+import Section from "../components/Section"
 import Spotify from "../components/spotify"
 import Skills from "../components/skills"
 import "../components/index.css"
