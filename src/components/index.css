@@ -67,6 +67,12 @@
       font-weight: 500;
   }
   
+
+  .Proud {
+    background: linear-gradient(90deg, #D25E53 0%, #D0922B 20.31%, #F9D651 39.06%, #6BDC85 57.81%, #498FF7 78.65%, #716FD5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   
 
   
