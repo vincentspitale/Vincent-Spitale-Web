@@ -24,23 +24,12 @@ class HeroSocials extends Component {
 
       render() {
         let result = this.state as {width: number, height:number}
-    
-        if (result.width > 820) {
+        const svgWidth = result.width > 640 ? 50: 30
+        
       return <div className="HeroSocials">
-       <Socials svgWidth={50}/>
+       <Socials svgWidth={svgWidth}/>
       </div>
-        }
-        else {
-            return <div className="MobileSocials"> 
-            <div className="HeroButtons"> 
-                <a href="https://www.twitter.com/vincentspitale" target="_blank">
-                <div className="Button"> 
-            Follow me on Twitter
-            </div>
-          </a>
-            </div>
-            </div>
-        }
+        
          
       }
 
