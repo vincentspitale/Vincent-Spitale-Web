@@ -17,3 +17,10 @@
         max-width: 200px;
     }
 }
+
+
+.HeroButtons {
+    display: grid;
+    grid-gap: 10px;
+}
+  

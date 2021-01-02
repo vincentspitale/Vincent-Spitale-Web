@@ -2,17 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-  --bg: white;
-  --textNormal: #333;
+  --bg: rgb(249, 249, 249);
+  --textNormal: black;
   --textLink: #236549;
   --textHover: black;
   --contrastMaterial: white;
+  --selectedMaterial: white;
+  --secondaryMaterial: rgb(106, 148, 123);
   --transparentMaterial: rgba(245, 245, 245, 0.8);
-  --heroBackground: linear-gradient(180deg, #D0F1E1 0%, #CDF5E4 39.58%, #FFFFFF 100%);
-  --cardBackground: linear-gradient(180deg, rgba(221, 255, 235, 0.5) 0%, rgba(217, 255, 241, 0.5) 100%);
+  --heroBackground: linear-gradient(180deg, #D0F1E1 0%, #CDF5E4 39.58%, rgb(249, 249, 249) 100%);
+  --cardBackground: rgb(224, 247, 234);
   --textGradient: linear-gradient(180deg, #125937 0%, #1E8465 100%);
   --textTransparent: rgba(0,0,0,0.8);
   --shadow: rgba(0,0,0,0.25);
+  --border: #e4e4e7;
 
 
   font-family: 'Inter';
@@ -26,17 +29,19 @@ body {
 }
 @media (prefers-color-scheme: dark) {
 body {
-  --bg: black;
-  --textNormal: #DDDDDD;
+  --bg: rgb(9, 9, 9);
+  --textNormal: white;
   --textLink: #B7FFDC;
   --textHover: white;
-  --contrastMaterial: black;
+  --contrastMaterial: rgb(35, 35, 35);
+  --selectedMaterial: rgb(55, 55, 61);
+  --secondaryMaterial: rgb(91, 126, 105);
   --transparentMaterial: rgba(32, 32, 32, 0.8);
-  --heroBackground: linear-gradient(180deg, #2E493B 0%, #1D2D23 41.15%, #000000 100%);
-  --cardBackground: linear-gradient(180deg, rgba(63, 99, 80, 0.5) 0%, rgba(50, 94, 71, 0.5) 100%);
+  --heroBackground: linear-gradient(180deg, #2E493B 0%, #1D2D23 41.15%, rgb(9, 9, 9) 100%);
+  --cardBackground: rgba(50, 94, 71, 0.5);
   --textGradient: linear-gradient(180deg, #D0FFE9 0%, #D5FFEB 100%);
   --textTransparent: rgba(255,255,255,0.8);
-
+  --border: #2c2c2c;
   
 }
 }
@@ -68,4 +73,19 @@ h3 {
 }
 
 
+.Button {
+  font-size: 11pt;
+  text-align: center;
+  border-radius: 6px;
+  padding: 9px;
+  background: var(--contrastMaterial);
+  color: var(--textHover);
+  box-shadow: 0 0 transparent, 0 0 transparent, 0 1px 2px 0 rgba(0,0,0,0.05);
+  box-sizing: border-box;
+  border: 0 solid var(--border);
+  border-width: 1px;
+}
 
+.Button:hover {
+  background: var(--selectedMaterial);
+}
