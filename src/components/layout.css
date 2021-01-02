@@ -11,7 +11,7 @@ body {
   --secondaryMaterial: rgb(106, 148, 123);
   --transparentMaterial: rgba(245, 245, 245, 0.8);
   --heroBackground: linear-gradient(180deg, #D0F1E1 0%, #CDF5E4 39.58%, rgb(249, 249, 249) 100%);
-  --cardBackground: rgb(224, 247, 234);
+  --cardBackground: rgb(229, 247, 237);
   --textGradient: linear-gradient(180deg, #125937 0%, #1E8465 100%);
   --textTransparent: rgba(0,0,0,0.8);
   --shadow: rgba(0,0,0,0.25);
