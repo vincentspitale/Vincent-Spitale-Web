@@ -5,7 +5,7 @@ import './socials.css'
 class HeroSocials extends Component {
     constructor(props) {
         super(props);
-        this.state = {width: window.innerWidth, height: window.innerHeight};
+        this.state = {width: 0, height: 0};
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
       }
       
