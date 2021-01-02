@@ -1,0 +1,19 @@
+  
+  .Socials svg {
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  
+  .Socials svg:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .Socials path {
+    fill: var(--textLink);
+  }
+  
+  .Socials svg:hover path{
+    fill: var(--textHover);
+  }
+  
+  

@@ -1,0 +1,20 @@
+.HeroSocials .Socials {
+    opacity: 0;
+    padding-top: 10px;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    justify-items: center;
+    align-items: center; 
+    animation: HeroAnimation 1s 1.0s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+
+
+@media (max-width: 640px) {
+    .HeroSocials .Socials {
+        grid-gap: 30px;
+        max-width: 200px;
+    }
+}
