@@ -12,9 +12,9 @@ const IndexPage = () => (
     <div className="Padding">
       <div className="HeroGroup">
       <div className="HeroTextGroup">
-        <p>Hey there, I'm</p>
+        <p>Hey, my name is</p>
         <h1>Vincent <span className="lastName">Spitale</span></h1>
-        <p>a student, software engineer, and diversity advocate</p>
+        <p>I am a student, software engineer, and diversity advocate</p>
         <HeroSocials />
       </div>
 
