@@ -7,7 +7,7 @@ import HeroSocials from "../components/hero-socials"
 import "../components/index.css"
 
 const IndexPage = () => (
-  <div>
+  <div id="home-page">
     <div className="Hero">
     <div className="Padding">
       <div className="HeroGroup">

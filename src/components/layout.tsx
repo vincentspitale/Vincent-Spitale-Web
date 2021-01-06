@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import SEO from "../components/seo"
 import Footer from "./footer"
 import "./layout.css"
+import "../components/index.css"
 
 const Layout = ({children}) => {
 
@@ -21,12 +22,9 @@ const Layout = ({children}) => {
         <Footer />
       </div>
   )
-}
+};
 
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
 
 export default Layout
 
