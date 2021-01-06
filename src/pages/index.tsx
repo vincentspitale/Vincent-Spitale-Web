@@ -1,10 +1,8 @@
 import React from "react"
-import Layout from "../components/layout"
 import Section from "../components/Section"
 import Spotify from "../components/spotify"
 import Skills from "../components/skills"
 import HeroSocials from "../components/hero-socials"
-import "../components/index.css"
 
 const IndexPage = () => (
   <div id="home-page">
