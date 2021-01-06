@@ -7,7 +7,7 @@ import HeroSocials from "../components/hero-socials"
 import "../components/index.css"
 
 const IndexPage = () => (
-  <Layout>
+  <div>
     <div className="Hero">
     <div className="Padding">
       <div className="HeroGroup">
@@ -52,7 +52,7 @@ const IndexPage = () => (
     </div>
 
     
-  </Layout>
+    </div>
 )
 
 export default IndexPage
