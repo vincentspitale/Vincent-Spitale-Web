@@ -36,6 +36,7 @@
       flex-direction: column-reverse;
     }
 
+
   }
   
   
@@ -94,7 +95,6 @@
     margin: 0 0 0 0;
     max-width: 600px;
     text-align: start;
-    align-self: center;
     padding: 20px;
   }
   
@@ -133,6 +133,7 @@
       grid-template-rows: none;
       display: flex;
       flex-direction: column-reverse;
+      max-width: 640px;
     }
 
 
@@ -145,6 +146,8 @@
     .Padding {
       padding: 0 !important;
     }
+
+   
 
   }
   

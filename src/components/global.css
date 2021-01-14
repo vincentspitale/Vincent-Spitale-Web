@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-  --bg: rgb(249, 249, 249);
+  --bg: rgb(255, 255, 255);
   --textNormal: black;
   --textLink: #236549;
   --textHover: black;
@@ -10,7 +10,7 @@ body {
   --selectedMaterial: white;
   --secondaryMaterial: rgb(106, 148, 123);
   --transparentMaterial: rgba(245, 245, 245, 0.8);
-  --heroBackground: linear-gradient(180deg, #D0F1E1 0%, #CDF5E4 39.58%, rgb(249, 249, 249) 100%);
+  --heroBackground: linear-gradient(180deg, #D0F1E1 0%, #CDF5E4 39.58%, rgb(255, 255, 255) 100%);
   --cardBackground: rgb(229, 247, 237);
   --textGradient: linear-gradient(180deg, #125937 0%, #1E8465 100%);
   --textTransparent: rgba(0,0,0,0.8);

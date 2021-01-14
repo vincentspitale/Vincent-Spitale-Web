@@ -8,8 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import SEO from "../components/seo"
-import Footer from "./footer"
-import "./layout.css"
+import Footer from "./footer/footer"
+import "./global.css"
 import "../components/index.css"
 
 const Layout = ({children}) => {
