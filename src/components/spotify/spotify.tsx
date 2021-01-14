@@ -60,7 +60,7 @@ class Spotify extends Component {
         <div className="Song">
         <img src={result.image}/>
         <div className="TitleArtist">
-        <div className="SongTitle"> <p>{result.songName}</p></div>
+        <span className="SongTitle"><p>{result.songName}</p></span>
         <p>{result.artistName}</p>
         </div>
         </div>

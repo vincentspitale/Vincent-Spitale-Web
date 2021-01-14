@@ -1,5 +1,5 @@
 import React from "react"
-import './Section.css'
+import './section.css'
 
 const Section = ({ children }) => (
   <div className="SectionPadding">
@@ -11,3 +11,4 @@ const Section = ({ children }) => (
 
 
 export default Section
+
