@@ -1,5 +1,5 @@
 import React from "react"
-import Section from "../components/section"
+import Section from "../components/section/section"
 import Spotify from "../components/spotify/spotify"
 import Skills from "../components/skills"
 import HeroSocials from "../components/socials/hero-socials"
