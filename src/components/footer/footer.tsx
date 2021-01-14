@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import './Footer.css'
+import './footer.css'
 import Socials from '../socials/socials'
 
 const Footer = ({ }) => (
