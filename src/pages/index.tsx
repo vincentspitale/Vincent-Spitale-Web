@@ -34,11 +34,11 @@ const IndexPage = () => (
       </Section>
       <Section>
       <div className="Important">
-      <p>I'm a <a href="https://pronoun.is/he?or=they" target="_blank">
+      <p>I'm a <a href="https://pronoun.is/he?or=they" target="_blank" rel="noopener noreferrer">
       <span className="Proud">he/they</span></a> studying computer science and mathematics at Northeastern University. 
       <br/>
       <br/>
-      Outside of class, I experiment with app development and augmented reality tech. I've found AR to be a perfect way for me to bring togther my love for visual and technical detail. I also lead workshops that aim to make the tech industry accessible and inviting to everyone. I'm currently in charge of design at <a href="https://numulti.com" target="_blank">MULTI</a>, Northeastern's undergraduate students for diversity & inclusion in tech.
+      Outside of class, I experiment with app development and augmented reality tech. I've found AR to be a perfect way for me to bring togther my love for visual and technical detail. I also lead workshops that aim to make the tech industry accessible and inviting to everyone. I'm currently in charge of design at <a href="https://numulti.com" target="_blank" rel="noopener noreferrer">MULTI</a>, Northeastern's undergraduate students for diversity & inclusion in tech.
       <br/>
       <br/>
       If you think I might be the right fit for a role, please reach out.
