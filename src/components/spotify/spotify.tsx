@@ -56,7 +56,7 @@ class Spotify extends Component {
         return(
             <div className="Spotify">
         <h3>{response}</h3>
-        <a href={result.link} target="_blank">
+        <a href={result.link} target="_blank" rel="noopener noreferrer">
         <div className="Song">
         <img src={result.image}/>
         <div className="TitleArtist">
