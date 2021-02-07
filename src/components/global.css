@@ -61,15 +61,32 @@ h3 {
   color: var(--textHover);
 }
 
+h1 {
+  font-size: 36pt;
+  color: var(--textLink);
+}
+
+h2 {
+  font-size: 38px;
+}
+
+
 section {
-  max-width: 600px;
-  align-items: start;
   padding: 20px;
 }
+
+.confined-section {
+  max-width: 600px;
+}
+
 
 @media (max-width: 820px) {
   section {
       margin: auto;
+  }
+
+  .confined-mobile {
+    max-width: 600px;
   }
 }
 

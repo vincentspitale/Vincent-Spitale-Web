@@ -23,15 +23,15 @@ const IndexPage = () => (
     </div>
 
     <div className="Padding">
-    <div className="InfoSections">
-    <div className="about-container">
-    <section className="song-skills">
+    <div className="grouped-sections bottom-padding">
+    <div className="flex-container flex-mobile-reverse">
+    <section className="confined-section song-skills">
         <Spotify />
       <br/>
       <h3>My Skills</h3>
        <Skills />
       </section>
-      <section>
+      <section className="confined-section">
       <div className="Important">
       <p>I'm a <a href="https://pronoun.is/he?or=they" target="_blank" rel="noopener noreferrer">
       <span className="Proud">he/they</span></a> studying computer science and mathematics at Northeastern University. 
@@ -48,6 +48,23 @@ const IndexPage = () => (
     </div>
     </div>
     </div>
+
+<div className="black-background">
+    <div className="Padding">
+    <div className="grouped-sections">
+    <section className="confined-mobile">
+      <div className="flex-container">
+      <div>
+      <h2 className="holo-text">Penumbra</h2>
+      <p className="white-text">At my first hackathon, I made an accessibility Chrome extension with a fantastic team. The extension inverts the brightness of online videos, reducing eye strain from virtual presentations and recorded lectures. We won second place in QWER Hacks's education category.</p>
+      <a href="https://github.com/vincentspitale/Penumbra" target="_blank" rel="noopener noreferrer" className="holo-text">See it on Github</a>
+      </div>
+      <img className="project-media" src={require('../assets/penumbra.gif')} />
+      </div>
+      </section>
+      </div>
+      </div>
+      </div>
 
     
     </div>
