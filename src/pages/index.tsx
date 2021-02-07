@@ -56,10 +56,12 @@ const IndexPage = () => (
       <div className="flex-container">
       <div>
       <h2 className="holo-text">Penumbra</h2>
-      <p className="white-text">At my first hackathon, I made an accessibility Chrome extension with a fantastic team. The extension inverts the brightness of online videos, reducing eye strain from virtual presentations and recorded lectures. We won second place in QWER Hacks's education category.</p>
+      <p className="white-text Important">At my first hackathon, I made an accessibility Chrome extension with a fantastic team. The extension inverts the brightness of online videos, reducing eye strain from virtual presentations and recorded lectures. We won second place in QWER Hacks's education category.</p>
       <a href="https://github.com/vincentspitale/Penumbra" target="_blank" rel="noopener noreferrer" className="holo-text">See it on Github</a>
       </div>
+      <div>
       <img className="project-media" src={require('../assets/penumbra.gif')} />
+      </div>
       </div>
       </section>
       </div>
