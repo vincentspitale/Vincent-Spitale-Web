@@ -16,6 +16,7 @@ body {
   --textTransparent: rgba(0,0,0,0.8);
   --shadow: rgba(0,0,0,0.25);
   --border: #e4e4e7;
+  --multi-background: #f2fffe;
 
 
   font-family: 'Inter';
@@ -42,6 +43,7 @@ body {
   --textGradient: linear-gradient(180deg, #D0FFE9 0%, #D5FFEB 100%);
   --textTransparent: rgba(255,255,255,0.8);
   --border: #2c2c2c;
+  --multi-background: rgba(11, 37, 36, 0.6);
   
 }
 }
