@@ -35,6 +35,10 @@
   }
 
 
+.multi-background {
+  background: var(--multi-background);
+}
+
 .black-background {
   background: black;
 }

@@ -49,6 +49,47 @@ const IndexPage = () => (
     </div>
     </div>
 
+  
+    <div className="Padding">
+    <div className="grouped-sections">
+    <section className="confined-mobile">
+      <div className="flex-container">
+      <div>
+      <h2 className="">inventory</h2>
+      <p className="Important">An augmented reality app that allows you to document where your belongings are in physical space. Using LiDAR tech on recent Apple devices, I have been able to develop a custom localization system by registering point clouds. Simply scan your building once, and the app will localize your exact position in the space when using AR.</p>
+      <a href="https://github.com/vincentspitale/Inventory" target="_blank" rel="noopener noreferrer" className="">See it on Github</a>
+      </div>
+      <div>
+      <img className="project-media" src={require('../images/inventory.png')} alt="inventory app running on iPhone and iPad"/>
+      </div>
+      </div>
+      </section>
+      </div>
+      </div>
+
+<div className="multi-background">
+      <div className="Padding">
+    <div className="grouped-sections">
+    <section className="confined-mobile">
+      <div className="flex-container">
+      <div>
+      <h2 className="">MULTI</h2>
+      <p className="Important">Serving as the design char, I mocked up and collaboratively implemented a new site for MULTI. I also revamped the student organization's branding and design system with inclusive design principles. </p>
+      <a href="https://numulti.com" target="_blank" rel="noopener noreferrer" className="">Visit the site</a>
+      <br/>
+      <a href="https://github.com/numulti/website" target="_blank" rel="noopener noreferrer" className="">See the repo on Github</a>
+      <br/>
+      <a href="https://www.youtube.com/channel/UCUrssmfo771b0Y1v3EADggA" target="_blank" rel="noopener noreferrer" className="">See MULTI's Youtube Channel</a>
+      </div>
+      <div>
+      <img className="project-media" src={require('../images/multi.png')} alt="MULTI website on iPad"/>
+      </div>
+      </div>
+      </section>
+      </div>
+      </div>
+      </div>
+
 <div className="black-background">
     <div className="Padding">
     <div className="grouped-sections">
@@ -60,7 +101,7 @@ const IndexPage = () => (
       <a href="https://github.com/vincentspitale/Penumbra" target="_blank" rel="noopener noreferrer" className="holo-text">See it on Github</a>
       </div>
       <div>
-      <img className="project-media" src={require('../assets/penumbra.gif')} />
+      <img className="project-media" src={require('../assets/penumbra.gif')} alt="Gif of youtube video with Penumbra disabled and enabled" />
       </div>
       </div>
       </section>
