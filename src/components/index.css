@@ -22,9 +22,6 @@
     display: flex;
   }
   
-  .song-container {
-    max-width: 95%;
-  }
 
   .InfoSections {
     opacity: 0;
@@ -34,24 +31,6 @@
   }
 
 
-
-
-  section {
-    max-width: 600px;
-    align-items: start;
-    padding: 20px;
-}
-
-@media (max-width: 820px) {
-    section {
-        margin: auto;
-    }
-}
-
-
-.Section h4 {
-    margin: 10px 0;
-  }
 
 
 
@@ -76,6 +55,7 @@
 
     .Important {
       max-width: 1000px !important;
+      width: 100% !important;
     }
 
 
@@ -102,6 +82,7 @@
 
   .Important {
     max-width: 400px;
+    width: 400px;
   }
   
 
