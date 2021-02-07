@@ -74,7 +74,7 @@ const IndexPage = () => (
       <div className="flex-container">
       <div>
       <h2 className="">MULTI</h2>
-      <p className="Important">Serving as the design char, I mocked up and collaboratively implemented a new site for MULTI. I also revamped the student organization's branding and design system with inclusive design principles. </p>
+      <p className="Important">Serving as the design chair, I mocked up and collaboratively implemented a new site for MULTI. I also revamped the student organization's branding and design system with inclusive design principles. </p>
       <a href="https://numulti.com" target="_blank" rel="noopener noreferrer" className="">Visit the site</a>
       <br/>
       <a href="https://github.com/numulti/website" target="_blank" rel="noopener noreferrer" className="">See the repo on Github</a>
