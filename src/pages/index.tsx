@@ -1,5 +1,4 @@
 import React from "react"
-import Section from "../components/section/section"
 import Spotify from "../components/spotify/spotify"
 import Skills from "../components/skills"
 import HeroSocials from "../components/socials/hero-socials"
@@ -25,14 +24,16 @@ const IndexPage = () => (
 
     <div className="Padding">
     <div className="InfoSections">
-
-    <Section>
+    <div className="about-container">
+    <section className="song-skills">
+      <div className="song-container">
         <Spotify />
+        </div>
       <br/>
       <h3>My Skills</h3>
        <Skills />
-      </Section>
-      <Section>
+      </section>
+      <section>
       <div className="Important">
       <p>I'm a <a href="https://pronoun.is/he?or=they" target="_blank" rel="noopener noreferrer">
       <span className="Proud">he/they</span></a> studying computer science and mathematics at Northeastern University. 
@@ -44,8 +45,9 @@ const IndexPage = () => (
       If you think I might be the right fit for a role, please reach out.
       </p>
       </div>
-      </Section>
+      </section>
       
+    </div>
     </div>
     </div>
 
