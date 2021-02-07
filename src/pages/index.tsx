@@ -26,9 +26,7 @@ const IndexPage = () => (
     <div className="InfoSections">
     <div className="about-container">
     <section className="song-skills">
-      <div className="song-container">
         <Spotify />
-        </div>
       <br/>
       <h3>My Skills</h3>
        <Skills />
