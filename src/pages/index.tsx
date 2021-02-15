@@ -78,8 +78,6 @@ const IndexPage = () => (
       <a href="https://numulti.com" target="_blank" rel="noopener noreferrer" className="">Visit the site</a>
       <br/>
       <a href="https://github.com/numulti/website" target="_blank" rel="noopener noreferrer" className="">See the repo on Github</a>
-      <br/>
-      <a href="https://www.youtube.com/channel/UCUrssmfo771b0Y1v3EADggA" target="_blank" rel="noopener noreferrer" className="">See MULTI's Youtube Channel</a>
       </div>
       <div>
       <img className="project-media" src={require('../images/multi.png')} alt="MULTI website on iPad"/>
