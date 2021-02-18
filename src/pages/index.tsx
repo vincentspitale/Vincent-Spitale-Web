@@ -56,7 +56,7 @@ const IndexPage = () => (
       <div className="flex-container">
       <div>
       <h2 className="">inventory</h2>
-      <p className="Important">An augmented reality app that allows you to document where your belongings are in physical space. Using LiDAR tech on recent Apple devices, I have been able to develop a custom localization system by registering point clouds. Simply scan your building once, and the app will localize your exact position in the space when using AR.</p>
+      <p className="Important">An augmented reality app that allows you to document where your belongings are located in physical space. Using LiDAR tech on recent Apple devices, I have been able to develop a custom localization system by registering point clouds. Simply scan your building once, and the app will localize your exact position in the space when using AR.</p>
       <a href="https://github.com/vincentspitale/Inventory" target="_blank" rel="noopener noreferrer" className="">See it on Github</a>
       </div>
       <div>
